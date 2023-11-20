@@ -1,0 +1,19 @@
+{
+  "name": "url_screaper",
+  "version": "1.0.0",
+  "description": "NodeJS code that gather all nested URLs from a given website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cache": "node src/cache.js",
+    "main": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "Majd Yaqub",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
